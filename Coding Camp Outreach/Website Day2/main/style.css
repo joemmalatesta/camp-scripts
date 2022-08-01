@@ -1,0 +1,32 @@
+/* CSS written in seperate files doesn't actually change anything to the computer, but it does change
+how easily your code can be read and written
+just looks nicer, doesn't it */
+div{
+    background-color: tan;
+    text-align: center;
+    font-size: 20px;
+}
+/* Using things like div{}, h1{}, p{}, etc applies the style to each element of that type. 
+If you don't want this to happen, or you want to overwrite your styles for specific potions,
+use classes to target specific parts of your website. */
+.favorite-show{
+    background-color: red;
+    /* The background color of all the divs was previously tan, but using our class name, favorite-show,
+    we are able to change the background color of that specific section. */
+    text-align: right;
+} 
+.about-me{
+    color: white;
+    outline: 2px solid black 
+    /* Outline allows you to see the size of your div, including blank space. */
+}
+
+
+/* use this to target every element in your HTML to apply some CSS to */
+* {
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* This is a small intorduction, but as far as we got with the two days of instruction.
+This was enough of instruction to allow for the understanding of the pixel art project. */
